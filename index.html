@@ -1,0 +1,43 @@
+<!DOCTYPE <!DOCTYPE html>
+
+<html>
+
+<head>
+	<title>Random Quote Generator</title>
+
+	<!-- Meta info for the webpage -->
+	<meta name="viewport" content="initial-scale=1.0">
+	<meta charset="utf-8">
+
+	<!-- Latest compiled and minified bootstrap CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	<link rel="stylesheet" href="style.css"> 
+
+	<!-- This version of jQuery is compatible with bootstrap-->
+	<script src="https://code.jquery.com/jquery-1.12.0.js"></script>
+
+	<!-- Bootstrap javascript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha256-KXn5puMvxCw+dAYznun+drMdG1IFl3agK0p/pqT9KAo= sha512-2e8qq0ETcfWRI4HJBzQiA3UoyFk6tbNyG+qSaIBZLyW9Xf3sWZHN/lxe9fTh1U45DpPf07yj94KsUHHWe4Yk1A==" crossorigin="anonymous"></script>
+
+	<!-- Custom stylesheet -->
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+
+	<div id="map"></div>
+	<script>
+		var map;
+		function initMap() {
+		map = new google.maps.Map(document.getElementById('map'), {
+			center: {lat: 43.7415720, lng: -79.7633750},
+			zoom: 8
+		});
+	}
+    </script>
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA0U4Pn7xxUCSsT4AAxGe3uqxj1-z6Cjpw&callback=initMap"
+    async defer></script>
+
+</body>
+
+</html>

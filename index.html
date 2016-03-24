@@ -21,22 +21,42 @@
 
 	<!-- Custom stylesheet -->
 	<link rel="stylesheet" type="text/css" href="style.css">
+
+	<!-- Custom js interaction -->
+	<script type="text/javascript" src="interact.js"></script>
 </head>
 
 <body>
 
-	<div id="map"></div>
-	<script>
-		var map;
-		function initMap() {
-		map = new google.maps.Map(document.getElementById('map'), {
-			center: {lat: 43.7415720, lng: -79.7633750},
-			zoom: 8
-		});
-	}
-    </script>
-	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA0U4Pn7xxUCSsT4AAxGe3uqxj1-z6Cjpw&callback=initMap"
-    async defer></script>
+<!-- row -->
+<div class="row"> 
+	
+	<!-- col-xs-12 -->
+	<div class="col-xs-12 col-sm-6 col-md-5 col-sm-offset-3"> 
+		
+		<!-- well -->
+		<div class="well"> 
+
+			<blockquote id="qod-quote">
+				... loading ...
+			</blockquote>
+			<script src="http://quotesondesign.com/api/3.0/api-3.0.js" 
+			type="text/javascript" charset="utf-8"></script>
+
+			<button id="change-quote"> Click Me! </button>
+
+		</div>
+		<!-- /well -->
+
+		
+
+	</div>
+	<!-- /col-xs-12 -->
+
+</div>
+<!-- /row -->
+
+
 
 </body>
 

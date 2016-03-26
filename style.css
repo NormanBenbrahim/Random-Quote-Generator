@@ -1,4 +1,79 @@
 body {
-	margin-top: 300px;
-	/*background-color: #e6e6ff;*/
+  background-color: #e6ffe6;
+  margin-top: 5%;
+  transition: all 1s;
+}
+
+.well {
+  background-color: #fbf4eb;
+  border-radius: 12px;
+  box-shadow: 4px 4px 3px;
+}
+
+#change-quote {
+  font-size: 25px;
+  font-family: Poiret One;
+  background-color: #d9d9d9;
+  border-radius: 5px;
+  box-shadow: 1px 1px 0px;
+}
+
+#change-quote:hover {
+  background-color: white;
+  transition: 0.5s;
+}
+
+#quote-title {
+  font-size: 28px;
+  font-family: Mr Dafoe;
+}
+
+#quote-content {
+  font-size: 35px;
+  font-family: Poiret One;
+}
+
+#signature {
+  float: right;
+  font-family: Garamond;
+  font-size: 18px;
+  color: #333333;
+}
+
+img {
+  height: 18%;
+  width: 18%;
+}
+
+.qsize {
+  font-size: 60px;
+  font-family: Bevan;
+}
+
+#twitter {
+  padding-right: 15px;
+  padding-left: 15px;
+  background-color: #d9d9d9;
+  box-shadow: 1px 1px 0px;
+}
+
+#twitter:hover {
+  background-color: white;
+  transition: 0.5s;
+}
+
+#tumblr {
+  padding-right: 20px;
+  padding-left: 18px;
+  background-color: #d9d9d9;
+  box-shadow: 1px 1px 0px;
+}
+
+#tumblr:hover {
+  background-color: white;
+  transition: 0.5s;
+}
+
+.fa {
+  font-size:30px
 }
